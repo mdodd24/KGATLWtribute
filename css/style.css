@@ -4,10 +4,90 @@ body{
 	background-color:#000000;
 }
 
-footer{
-	padding:20px;
-	margin-top:20px;
-	color:#fff;
-	background-color:#32CD32;
-	text-align:center;
+/* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
 }
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+/* Header */
+header{
+	background:#000;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:rgb(70,145,60) 3px solid;
+}
+
+header a{
+	color:rgb(70,145,60);
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px; 
+}
+
+header li{
+	font:15px Arial Black;
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header nav{
+	float:right;
+	margin-top:5px;
+}
+
+header a:hover{
+	color:rgb(70,145,60);
+	font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+	min-height:400px;
+	background:url('../images/bandpic1.jpg') no-repeat center;
+	padding-top:250px;
+	min-height:200px;
+	background-size:100%;
+	border-bottom:rgb(70,145,60) 3px solid;
+
+}
+
+/* Video */
+
+.video1{
+	padding-top:50px;
+	padding-bottom:50px;
+	float:left;
+}
+
+.video2{
+	padding-top:50px;
+	padding-bottom:50px;
+	float:right;
+}
+
+.newalbum{
+	font:30px/1.5 Arial Black;
+	color:rgb(70,145,60);
+	text-align:center;
+	float:bottom;
+	border-bottom:rgb(70,145,60) 3px groove;
+}
+
+
+
+
+
+
+
+
+
+
+
