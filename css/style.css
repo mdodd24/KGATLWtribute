@@ -16,16 +16,18 @@ header ul{
 	padding:0;
 }
 
+
 /* Header */
 header{
 	background:#000;
-	padding-top:30px;
+	padding-top:5px;
+	padding-bottom:5px;
 	min-height:70px;
-	border-bottom:rgb(70,145,60) 3px solid;
+	border-bottom:#51B84D 3px solid;
 }
 
 header a{
-	color:rgb(70,145,60);
+	color:#51B84D;
 	text-decoration:none;
 	text-transform:uppercase;
 	font-size:16px; 
@@ -33,20 +35,37 @@ header a{
 
 header li{
 	font:15px Arial Black;
-	float:left;
 	display:inline;
-	padding:0 20px 0 20px;
+	padding:0 30px 0 50px;
 }
 
 header nav{
-	float:right;
-	margin-top:5px;
+	text-align:center;
+	margin-top:-5px;
 }
 
 header a:hover{
-	color:rgb(70,145,60);
+	color:#fff;
 	font-weight:bold;
 }
+
+.socialmedia{
+	float:right;
+	padding:5px 5px 0px 5px;
+	margin-top:5px;
+}
+
+
+.band-logo{
+	min-height:70px;
+	padding-top:0; 
+	padding-left:145px;
+	margin-top:-45px;
+	margin-bottom:-25px;
+}
+
+/* social media */
+
 
 /* Showcase */
 #showcase{
@@ -55,8 +74,7 @@ header a:hover{
 	padding-top:250px;
 	min-height:200px;
 	background-size:100%;
-	border-bottom:rgb(70,145,60) 3px solid;
-
+	border-bottom:#51B84D 3px solid;
 }
 
 /* Video */
@@ -64,22 +82,54 @@ header a:hover{
 .video1{
 	padding-top:50px;
 	padding-bottom:50px;
+	padding-left:25px;
 	float:left;
 }
 
 .video2{
 	padding-top:50px;
 	padding-bottom:50px;
+	padding-right:25px;
 	float:right;
 }
 
-.newalbum{
+.album{
 	font:30px/1.5 Arial Black;
-	color:rgb(70,145,60);
+	color:#fff;
 	text-align:center;
 	float:bottom;
-	border-bottom:rgb(70,145,60) 3px groove;
+	border-bottom:#51B84D 3px groove;
 }
+
+/* New Album */
+#new-album{
+	display:block;
+	margin:0 auto;
+	width:580px;
+	height:540px;
+}
+
+
+#link{
+	display:block;
+	margin:auto;
+	width:580px;
+	height:540px;
+}
+
+/* Footer */
+footer{
+	font:10px Arial Black;
+	padding:5px;
+	margin-top:70px;
+	color:#fff;
+	text-align:center; 
+}
+
+
+
+
+
 
 
 
