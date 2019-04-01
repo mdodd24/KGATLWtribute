@@ -5,6 +5,7 @@ body{
 }
 
 /* Global */
+
 .container{
 	width:80%;
 	margin:auto;
@@ -18,6 +19,7 @@ header ul{
 
 
 /* Header */
+
 header{
 	background:#000;
 	padding-top:5px;
@@ -64,17 +66,21 @@ header a:hover{
 	margin-bottom:-25px;
 }
 
-/* social media */
-
-
 /* Showcase */
-#showcase{
-	min-height:400px;
+
+#bandpic1{
 	background:url('../images/bandpic1.jpg') no-repeat center;
 	padding-top:250px;
 	min-height:200px;
 	background-size:100%;
 	border-bottom:#51B84D 3px solid;
+}
+
+#bandpic2{
+	background:url('../images/bandpic2.jpg') no-repeat center;
+	padding-top:370px;
+	min-height:200px;
+	background-size:100%;
 }
 
 /* Video */
@@ -102,6 +108,7 @@ header a:hover{
 }
 
 /* New Album */
+
 #new-album{
 	display:block;
 	margin:0 auto;
@@ -117,7 +124,27 @@ header a:hover{
 	height:540px;
 }
 
+/* Band History */
+
+#history h1{
+	font:45px 'Monoton', cursive;
+	text-decoration:underline;
+	color:#fff;
+}
+
+#history h2{
+	font:16px Arial Black;
+	color:#51B84D;
+}
+
+#history p{
+	font:14px Arial Black;
+	color:#fff;
+}
+
+
 /* Footer */
+
 footer{
 	font:10px Arial Black;
 	padding:5px;
